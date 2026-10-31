@@ -69,6 +69,8 @@ class PracticeSubmission(Base):
     __tablename__ = "practice_submissions"
 
     id = Column(Integer, primary_key=True, index=True)
+    # Owner of the submission. Nullable only so rows created before this column existed survive.
+    student_id = Column(String(64), nullable=True, index=True)
     question_id = Column(Integer, ForeignKey("practice_questions.id", ondelete="SET NULL"), nullable=True, index=True)
     question_text = Column(Text, nullable=False)
     student_answer = Column(Text, nullable=False)

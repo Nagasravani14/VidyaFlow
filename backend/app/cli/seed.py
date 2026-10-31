@@ -10,6 +10,7 @@ if sys.platform == "win32":
 
 from app.database import SessionLocal, Base, engine
 from app.importer.pipeline import CurriculumImporter
+from app.seed.quiz_seed import seed_quiz_content
 
 
 def seed_database():
@@ -40,6 +41,9 @@ def seed_database():
                     print(f"  [FAIL] Failed: {report.failed_records}")
             else:
                 print(f"  [WARN] Warning: {file_path} not found.")
+
+        result = seed_quiz_content(db)
+        print(f"[OK] Quiz concepts: {result['concepts']}, curated questions inserted: {result['curated_questions_inserted']}")
 
         print("\n[OK] Database seeding completed successfully.")
     finally:

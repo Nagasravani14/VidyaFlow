@@ -6,6 +6,7 @@ from app.database import engine, Base, SessionLocal
 from app.api import api_v1_router
 from app.api.v1.health import router as health_router
 from app.importer.pipeline import CurriculumImporter
+from app.seed.quiz_seed import seed_quiz_content
 
 
 @asynccontextmanager
@@ -16,6 +17,8 @@ async def lifespan(app: FastAPI):
     try:
         importer = CurriculumImporter(db)
         importer.ensure_class_grades()
+        # Starter concepts + curated fallback question bank (idempotent)
+        seed_quiz_content(db)
     finally:
         db.close()
     yield

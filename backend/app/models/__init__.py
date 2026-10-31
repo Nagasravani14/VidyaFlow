@@ -24,6 +24,15 @@ from app.models.tutor import (
     ChatMessage,
     PracticeSubmission,
 )
+from app.models.quiz import (
+    Concept,
+    ConceptPrerequisite,
+    Question,
+    QuizAttempt,
+    QuestionAttempt,
+    StudentConceptLevel,
+    StudentConceptMastery,
+)
 
 __all__ = [
     "Board",
@@ -44,4 +53,11 @@ __all__ = [
     "ChatSession",
     "ChatMessage",
     "PracticeSubmission",
+    "Concept",
+    "ConceptPrerequisite",
+    "Question",
+    "QuizAttempt",
+    "QuestionAttempt",
+    "StudentConceptLevel",
+    "StudentConceptMastery",
 ]

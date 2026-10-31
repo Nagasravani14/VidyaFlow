@@ -27,6 +27,7 @@ python-dotenv>=1.0.1
 
 # Relational Database & Migrations
 sqlalchemy>=2.0.28,<3.0.0
+sympy>=1.12
 alembic>=1.13.1
 
 # HTTP Client & Testing
