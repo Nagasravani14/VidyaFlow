@@ -1,0 +1,1356 @@
+{
+  "board": {
+    "code": "TELANGANA_STATE_BOARD",
+    "name": "Telangana State Board",
+    "full_name": "State Council of Educational Research and Training (SCERT), Telangana",
+    "country": "India",
+    "state_or_region": "Telangana",
+    "is_active": true
+  },
+  "syllabus_version": "2024-2025",
+  "source_attribution": {
+    "source_type": "official_textbook",
+    "publisher": "SCERT Telangana",
+    "publication_year": 2024,
+    "edition": "2024-25 Curriculum Edition",
+    "title": "Telangana State Curriculum Framework (TSCF) - Secondary & Upper Primary Syllabus",
+    "license_or_permission_status": "public_curriculum_framework",
+    "verification_status": "verified"
+  },
+  "classes": [
+    {
+      "grade_number": 10,
+      "subjects": [
+        {
+          "code": "TS_10_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "Telangana Class 10 SSC Mathematics curriculum covering algebra, geometry, trigonometry, and statistics.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_10_MATH_CH01",
+              "title": "Real Numbers",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_10_MATH_CH02",
+              "title": "Sets",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_10_MATH_CH03",
+              "title": "Polynomials",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_10_MATH_CH04",
+              "title": "Pair of Linear Equations in Two Variables",
+              "estimated_minutes": 110,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_10_MATH_CH05",
+              "title": "Quadratic Equations",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_10_MATH_CH06",
+              "title": "Progressions",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_10_MATH_CH07",
+              "title": "Coordinate Geometry",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "TS_10_MATH_CH08",
+              "title": "Similar Triangles",
+              "estimated_minutes": 120,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "TS_10_MATH_CH09",
+              "title": "Tangents and Secants to a Circle",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "TS_10_MATH_CH10",
+              "title": "Mensuration",
+              "estimated_minutes": 110,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "TS_10_MATH_CH11",
+              "title": "Trigonometry",
+              "estimated_minutes": 120,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "TS_10_MATH_CH12",
+              "title": "Applications of Trigonometry",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 13,
+              "code": "TS_10_MATH_CH13",
+              "title": "Probability",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 14,
+              "code": "TS_10_MATH_CH14",
+              "title": "Statistics",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_10_PHYSCI",
+          "name": "Physical Science",
+          "category": "STEM",
+          "description": "Telangana Class 10 SSC Physical Science curriculum (Physics & Chemistry).",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_10_PS_CH01",
+              "title": "Reflection of Light at Curved Surfaces",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_10_PS_CH02",
+              "title": "Chemical Equations",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_10_PS_CH03",
+              "title": "Acids, Bases and Salts",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_10_PS_CH04",
+              "title": "Refraction of Light at Curved Surfaces",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_10_PS_CH05",
+              "title": "Human Eye and Colourful World",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_10_PS_CH06",
+              "title": "Structure of Atom",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_10_PS_CH07",
+              "title": "Classification of Elements - The Periodic Table",
+              "estimated_minutes": 110,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "TS_10_PS_CH08",
+              "title": "Chemical Bonding",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "TS_10_PS_CH09",
+              "title": "Electric Current",
+              "estimated_minutes": 120,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "TS_10_PS_CH10",
+              "title": "Electromagnetism",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "TS_10_PS_CH11",
+              "title": "Principles of Metallurgy",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "TS_10_PS_CH12",
+              "title": "Carbon and its Compounds",
+              "estimated_minutes": 120,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_10_BIOSCI",
+          "name": "Biological Science",
+          "category": "STEM",
+          "description": "Telangana Class 10 SSC Biological Science curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_10_BS_CH01",
+              "title": "Nutrition - Food Supplying System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_10_BS_CH02",
+              "title": "Respiration - Energy Producing System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_10_BS_CH03",
+              "title": "Transportation - The Circulatory System",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_10_BS_CH04",
+              "title": "Excretion - The Wastage Disposing System",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_10_BS_CH05",
+              "title": "Control and Coordination",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_10_BS_CH06",
+              "title": "Reproduction - The Generating System",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_10_BS_CH07",
+              "title": "Coordination in Life Processes",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "TS_10_BS_CH08",
+              "title": "Heredity - From Parent to Offspring",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "TS_10_BS_CH09",
+              "title": "Our Environment - Our Concern",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "TS_10_BS_CH10",
+              "title": "Natural Resources",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_10_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_10_SOCI_CH01",
+              "title": "India: Relief Features",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_10_SOCI_CH02",
+              "title": "Ideas of Development",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_10_SOCI_CH03",
+              "title": "Production and Employment",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_10_SOCI_CH04",
+              "title": "Climate of India",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_10_SOCI_CH05",
+              "title": "Indian Rivers and Water Resources",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_10_SOCI_CH06",
+              "title": "The People and Migration",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_10_SOCI_CH07",
+              "title": "National Movement in India - Partition & Independence",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "TS_10_SOCI_CH08",
+              "title": "The Making of Independent India's Constitution",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "TS_10_SOCI_CH09",
+              "title": "The Movement for the Formation of Telangana State",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade_number": 9,
+      "subjects": [
+        {
+          "code": "TS_9_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "Telangana Class 9 Mathematics curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_9_MATH_CH01",
+              "title": "Real Numbers",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_9_MATH_CH02",
+              "title": "Polynomials and Factorisation",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_9_MATH_CH03",
+              "title": "The Elements of Geometry",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_9_MATH_CH04",
+              "title": "Lines and Angles",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_9_MATH_CH05",
+              "title": "Coordinate Geometry",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_9_MATH_CH06",
+              "title": "Linear Equations in Two Variables",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_9_MATH_CH07",
+              "title": "Triangles",
+              "estimated_minutes": 110,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "TS_9_MATH_CH08",
+              "title": "Quadrilaterals",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "TS_9_MATH_CH09",
+              "title": "Areas",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "TS_9_MATH_CH10",
+              "title": "Circles",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "TS_9_MATH_CH11",
+              "title": "Geometrical Constructions",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "TS_9_MATH_CH12",
+              "title": "Surface Areas and Volumes",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 13,
+              "code": "TS_9_MATH_CH13",
+              "title": "Statistics",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 14,
+              "code": "TS_9_MATH_CH14",
+              "title": "Probability",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_9_PHYS",
+          "name": "Physical Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_9_PHYS_CH01",
+              "title": "Matter Around Us",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_9_PHYS_CH02",
+              "title": "Motion",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_9_PHYS_CH03",
+              "title": "Laws of Motion",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_9_PHYS_CH04",
+              "title": "Refraction of Light at Plane Surfaces",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_9_PHYS_CH05",
+              "title": "Gravitation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_9_PHYS_CH06",
+              "title": "Is Matter Pure?",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_9_PHYS_CH07",
+              "title": "Atoms and Molecules",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "TS_9_PHYS_CH08",
+              "title": "Work and Energy",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "TS_9_PHYS_CH09",
+              "title": "Sound",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_9_BIOL",
+          "name": "Biological Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_9_BIOL_CH01",
+              "title": "Cell: Its Structure and Functions",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_9_BIOL_CH02",
+              "title": "Plant Tissues",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_9_BIOL_CH03",
+              "title": "Animal Tissues",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_9_BIOL_CH04",
+              "title": "Movement of Substances through Plasma Membrane",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_9_BIOL_CH05",
+              "title": "Diversity in Living Organisms",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_9_BIOL_CH06",
+              "title": "Sense Organs",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_9_BIOL_CH07",
+              "title": "Biogeochemical Cycles",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_9_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_9_SOCI_CH01",
+              "title": "Our Earth",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_9_SOCI_CH02",
+              "title": "The Natural Realms of the Earth: Lithosphere and Hydrosphere",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_9_SOCI_CH03",
+              "title": "Agriculture in India",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_9_SOCI_CH04",
+              "title": "Industries and Service Activities",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_9_SOCI_CH05",
+              "title": "Democratic and Nationalist Revolutions",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_9_SOCI_CH06",
+              "title": "Making of Independent India's Constitution",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_9_SOCI_CH07",
+              "title": "Election Process in India",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade_number": 8,
+      "subjects": [
+        {
+          "code": "TS_8_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "Telangana Class 8 Mathematics curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_8_MATH_CH01",
+              "title": "Rational Numbers",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_8_MATH_CH02",
+              "title": "Linear Equations in One Variable",
+              "estimated_minutes": 120,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_8_MATH_CH03",
+              "title": "Construction of Quadrilaterals",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_8_MATH_CH04",
+              "title": "Exponents and Powers",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_8_MATH_CH05",
+              "title": "Comparing Quantities using Proportion",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_8_MATH_CH06",
+              "title": "Square Roots and Cube Roots",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_8_MATH_CH07",
+              "title": "Frequency Distribution Tables and Graphs",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "TS_8_MATH_CH08",
+              "title": "Exploring Geometrical Figures",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "TS_8_MATH_CH09",
+              "title": "Area of Plane Figures",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "TS_8_MATH_CH10",
+              "title": "Direct and Inverse Proportions",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "TS_8_MATH_CH11",
+              "title": "Algebraic Expressions",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "TS_8_MATH_CH12",
+              "title": "Factorisation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_8_PHYS",
+          "name": "Physical Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_8_PHYS_CH01",
+              "title": "Force",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_8_PHYS_CH02",
+              "title": "Friction",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_8_PHYS_CH03",
+              "title": "Synthetic Fibres and Plastics",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_8_PHYS_CH04",
+              "title": "Metals and Non-Metals",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_8_PHYS_CH05",
+              "title": "Sound",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_8_PHYS_CH06",
+              "title": "Coal and Petroleum",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_8_PHYS_CH07",
+              "title": "Combustion, Fuels and Flame",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "TS_8_PHYS_CH08",
+              "title": "Electrical Conductivity of Liquids",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "TS_8_PHYS_CH09",
+              "title": "Stars and the Solar System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_8_BIOL",
+          "name": "Biological Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_8_BIOL_CH01",
+              "title": "What is Science?",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_8_BIOL_CH02",
+              "title": "Cell - The Basic Unit of Life",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_8_BIOL_CH03",
+              "title": "The World of Microorganisms",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_8_BIOL_CH04",
+              "title": "Reproduction in Animals",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_8_BIOL_CH05",
+              "title": "Reaching the Age of Adolescence",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_8_BIOL_CH06",
+              "title": "Biodiversity and Its Conservation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_8_BIOL_CH07",
+              "title": "Different Ecosystems",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_8_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_8_SOCI_CH01",
+              "title": "Reading and Analysis of Maps",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_8_SOCI_CH02",
+              "title": "Energy from the Sun",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_8_SOCI_CH03",
+              "title": "Earth Movements and Seasons",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_8_SOCI_CH04",
+              "title": "Minerals and Mining",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_8_SOCI_CH05",
+              "title": "Money and Banking",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_8_SOCI_CH06",
+              "title": "The Indian Constitution",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_8_SOCI_CH07",
+              "title": "Parliament and Central Government",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "TS_8_SOCI_CH08",
+              "title": "National Movement: Early and Last Phase",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade_number": 7,
+      "subjects": [
+        {
+          "code": "TS_7_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "Telangana Class 7 Mathematics curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_7_MATH_CH01",
+              "title": "Integers",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_7_MATH_CH02",
+              "title": "Fractions, Decimals and Rational Numbers",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_7_MATH_CH03",
+              "title": "Simple Equations",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_7_MATH_CH04",
+              "title": "Lines and Angles",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_7_MATH_CH05",
+              "title": "Triangle and its Properties",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_7_PHYS",
+          "name": "Physical Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_7_PHYS_CH01",
+              "title": "Acids and Bases",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_7_PHYS_CH02",
+              "title": "Motion and Time",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_7_PHYS_CH03",
+              "title": "Temperature and Its Measurement",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_7_PHYS_CH04",
+              "title": "Electricity: Current and Its Effects",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_7_PHYS_CH05",
+              "title": "Air, Winds and Cyclones",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_7_PHYS_CH06",
+              "title": "Reflection of Light",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_7_PHYS_CH07",
+              "title": "Water: A Precious Resource",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_7_BIOL",
+          "name": "Biological Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_7_BIOL_CH01",
+              "title": "Nutrition in Plants",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_7_BIOL_CH02",
+              "title": "Nutrition in Animals",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_7_BIOL_CH03",
+              "title": "Respiration in Organisms",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_7_BIOL_CH04",
+              "title": "Transportation in Animals and Plants",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_7_BIOL_CH05",
+              "title": "Reproduction in Plants",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_7_BIOL_CH06",
+              "title": "Forests: Our Lifeline",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_7_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_7_SOCI_CH01",
+              "title": "Reading Maps of Different Kinds",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_7_SOCI_CH02",
+              "title": "Rain and Rivers",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_7_SOCI_CH03",
+              "title": "Tanks and Ground Water",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_7_SOCI_CH04",
+              "title": "The Kakatiyas: Emergence of a Regional Kingdom",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_7_SOCI_CH05",
+              "title": "The Kings of Vijayanagara",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_7_SOCI_CH06",
+              "title": "The Mughal Empire",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade_number": 6,
+      "subjects": [
+        {
+          "code": "TS_6_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "Telangana Class 6 Mathematics curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_6_MATH_CH01",
+              "title": "Knowing Our Numbers",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_6_MATH_CH02",
+              "title": "Whole Numbers",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_6_MATH_CH03",
+              "title": "Playing with Numbers",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_6_MATH_CH04",
+              "title": "Basic Geometrical Ideas",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_6_MATH_CH05",
+              "title": "Integers",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_6_PHYS",
+          "name": "Physical Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_6_PHYS_CH01",
+              "title": "Playing with Magnets",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_6_PHYS_CH02",
+              "title": "Rain: Where Does It Come From?",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_6_PHYS_CH03",
+              "title": "Materials and Things",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_6_PHYS_CH04",
+              "title": "Separation of Substances",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_6_PHYS_CH05",
+              "title": "Simple Electric Circuits",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_6_PHYS_CH06",
+              "title": "Learning How to Measure",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "TS_6_PHYS_CH07",
+              "title": "Light, Shadows and Images",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_6_BIOL",
+          "name": "Biological Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_6_BIOL_CH01",
+              "title": "Our Food and Its Components",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_6_BIOL_CH02",
+              "title": "Living and Non-Living",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_6_BIOL_CH03",
+              "title": "Plant Parts and Functions",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_6_BIOL_CH04",
+              "title": "What Do Animals Eat?",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_6_BIOL_CH05",
+              "title": "Habitat and Ecosystems",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_6_BIOL_CH06",
+              "title": "Water in Our Life",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "TS_6_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "TS_6_SOCI_CH01",
+              "title": "Reading and Making Maps",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "TS_6_SOCI_CH02",
+              "title": "Globe - Model of the Earth",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "TS_6_SOCI_CH03",
+              "title": "Land Forms of Andhra Pradesh and Telangana",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "TS_6_SOCI_CH04",
+              "title": "Early Civilizations: Indus Valley",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "TS_6_SOCI_CH05",
+              "title": "Democratic Government & Village Panchayats",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "TS_6_SOCI_CH06",
+              "title": "First Empires: The Mauryas",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

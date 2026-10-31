@@ -1,0 +1,1480 @@
+{
+  "board": {
+    "code": "ICSE",
+    "name": "ICSE",
+    "full_name": "Council for the Indian School Certificate Examinations (CISCE)",
+    "country": "India",
+    "state_or_region": "National",
+    "is_active": true
+  },
+  "syllabus_version": "2024-2025",
+  "source_attribution": {
+    "source_type": "syllabus_guidelines",
+    "publisher": "CISCE",
+    "publication_year": 2024,
+    "edition": "2024-25 Regulations & Syllabuses",
+    "title": "ICSE Regulations and Syllabuses for Class IX and X",
+    "license_or_permission_status": "public_curriculum_framework",
+    "verification_status": "verified"
+  },
+  "classes": [
+    {
+      "grade_number": 10,
+      "subjects": [
+        {
+          "code": "ICSE_10_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "ICSE Class 10 Board Examination Mathematics curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_10_MATH_CH01",
+              "title": "Goods and Services Tax (GST)",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_10_MATH_CH02",
+              "title": "Banking (Recurring Deposit Accounts)",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_10_MATH_CH03",
+              "title": "Linear Inequations",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_10_MATH_CH04",
+              "title": "Quadratic Equations in One Variable",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_10_MATH_CH05",
+              "title": "Ratio and Proportion",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_10_MATH_CH06",
+              "title": "Remainder and Factor Theorems",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_10_MATH_CH07",
+              "title": "Matrices",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_10_MATH_CH08",
+              "title": "Arithmetic and Geometric Progression",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "ICSE_10_MATH_CH09",
+              "title": "Coordinate Geometry: Reflection",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "ICSE_10_MATH_CH10",
+              "title": "Section and Mid-Point Formula",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "ICSE_10_MATH_CH11",
+              "title": "Equation of a Line",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "ICSE_10_MATH_CH12",
+              "title": "Similarity of Triangles",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 13,
+              "code": "ICSE_10_MATH_CH13",
+              "title": "Loci",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 14,
+              "code": "ICSE_10_MATH_CH14",
+              "title": "Circles (Angle and Cyclic Properties)",
+              "estimated_minutes": 110,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 15,
+              "code": "ICSE_10_MATH_CH15",
+              "title": "Constructions",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 16,
+              "code": "ICSE_10_MATH_CH16",
+              "title": "Mensuration (Cylinder, Cone, Sphere)",
+              "estimated_minutes": 110,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 17,
+              "code": "ICSE_10_MATH_CH17",
+              "title": "Trigonometrical Identities and Heights & Distances",
+              "estimated_minutes": 110,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 18,
+              "code": "ICSE_10_MATH_CH18",
+              "title": "Statistics (Mean, Median, Mode, Ogive)",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 19,
+              "code": "ICSE_10_MATH_CH19",
+              "title": "Probability",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_10_PHYS",
+          "name": "Physical Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_10_PHYS_CH01",
+              "title": "Force, Work, Power and Energy",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_10_PHYS_CH02",
+              "title": "Light: Refraction through a Lens and Prisms",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_10_PHYS_CH03",
+              "title": "Light: Spectrum, Color and Electromagnetic Radiation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_10_PHYS_CH04",
+              "title": "Sound: Echoes, Vibrations and Resonance",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_10_PHYS_CH05",
+              "title": "Current Electricity: Ohm's Law and Combinations",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_10_PHYS_CH06",
+              "title": "Household Circuits and Electrical Safety",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_10_PHYS_CH07",
+              "title": "Electromagnetism and Electromagnetic Induction",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_10_PHYS_CH08",
+              "title": "Calorimetry: Specific Heat Capacity and Latent Heat",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "ICSE_10_PHYS_CH09",
+              "title": "Radioactivity and Nuclear Energy",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "ICSE_10_PHYS_CH10",
+              "title": "Periodic Properties and Chemical Bonding",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "ICSE_10_PHYS_CH11",
+              "title": "Acids, Bases and Salts",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "ICSE_10_PHYS_CH12",
+              "title": "Analytical Chemistry and Metallurgy",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 13,
+              "code": "ICSE_10_PHYS_CH13",
+              "title": "Study of Compounds: Ammonia, Nitric Acid and Sulphuric Acid",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 14,
+              "code": "ICSE_10_PHYS_CH14",
+              "title": "Organic Chemistry: Hydrocarbons and Alcohols",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_10_BIOL",
+          "name": "Biological Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_10_BIOL_CH01",
+              "title": "Cell Division: Mitosis and Meiosis",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_10_BIOL_CH02",
+              "title": "Genetics: Mendel's Laws and DNA Structure",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_10_BIOL_CH03",
+              "title": "Absorption by Roots and Osmotic Phenomenon",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_10_BIOL_CH04",
+              "title": "Transpiration and Guttation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_10_BIOL_CH05",
+              "title": "Photosynthesis: Photochemical and Biosynthetic Phases",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_10_BIOL_CH06",
+              "title": "Chemical Coordination in Plants: Auxins and Gibberellins",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_10_BIOL_CH07",
+              "title": "Human Circulatory System: Heart and Double Circulation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_10_BIOL_CH08",
+              "title": "Human Excretory System: Nephron and Urine Formation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "ICSE_10_BIOL_CH09",
+              "title": "Human Nervous System and Reflex Arc",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "ICSE_10_BIOL_CH10",
+              "title": "Human Endocrine Glands: Hormones and Feedback",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "ICSE_10_BIOL_CH11",
+              "title": "Human Reproductive System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "ICSE_10_BIOL_CH12",
+              "title": "Population Explosion and Pollution Control",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_10_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_10_SOCI_CH01",
+              "title": "The First War of Independence (1857)",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_10_SOCI_CH02",
+              "title": "Growth of Nationalism and Early Nationalists",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_10_SOCI_CH03",
+              "title": "Assertive Nationalists and Partition of Bengal",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_10_SOCI_CH04",
+              "title": "The Muslim League and Lucknow Pact",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_10_SOCI_CH05",
+              "title": "Mahatma Gandhi and National Movements (Non-Cooperation, Civil Disobedience, Quit India)",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_10_SOCI_CH06",
+              "title": "Subhas Chandra Bose and the INA",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_10_SOCI_CH07",
+              "title": "Independence and Partition of India (1947)",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_10_SOCI_CH08",
+              "title": "The First World War and Rise of Dictatorships",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "ICSE_10_SOCI_CH09",
+              "title": "The Second World War and The United Nations",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "ICSE_10_SOCI_CH10",
+              "title": "Major Agencies of the United Nations (UNESCO, WHO, UNICEF)",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "ICSE_10_SOCI_CH11",
+              "title": "Universal Declaration of Human Rights and Non-Aligned Movement",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "ICSE_10_SOCI_CH12",
+              "title": "The Union Parliament (Lok Sabha & Rajya Sabha)",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 13,
+              "code": "ICSE_10_SOCI_CH13",
+              "title": "The President, Vice-President and Prime Minister",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 14,
+              "code": "ICSE_10_SOCI_CH14",
+              "title": "The Supreme Court and High Courts",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 15,
+              "code": "ICSE_10_SOCI_CH15",
+              "title": "Topography of India, Climate and Soil Resources",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 16,
+              "code": "ICSE_10_SOCI_CH16",
+              "title": "Water Resources, Mineral and Energy Resources",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 17,
+              "code": "ICSE_10_SOCI_CH17",
+              "title": "Agriculture in India and Manufacturing Industries",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 18,
+              "code": "ICSE_10_SOCI_CH18",
+              "title": "Transport and Waste Management",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade_number": 9,
+      "subjects": [
+        {
+          "code": "ICSE_9_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "ICSE Class 9 Mathematics curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_9_MATH_CH01",
+              "title": "Rational and Irrational Numbers",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_9_MATH_CH02",
+              "title": "Compound Interest",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_9_MATH_CH03",
+              "title": "Expansions",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_9_MATH_CH04",
+              "title": "Factorisation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_9_MATH_CH05",
+              "title": "Simultaneous Linear Equations",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_9_MATH_CH06",
+              "title": "Indices / Exponents",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_9_MATH_CH07",
+              "title": "Logarithms",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_9_MATH_CH08",
+              "title": "Triangles",
+              "estimated_minutes": 100,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "ICSE_9_MATH_CH09",
+              "title": "Pythagoras Theorem",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "ICSE_9_MATH_CH10",
+              "title": "Rectilinear Figures",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_9_PHYS",
+          "name": "Physical Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_9_PHYS_CH01",
+              "title": "Measurements and Experimentation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_9_PHYS_CH02",
+              "title": "Motion in One Dimension",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_9_PHYS_CH03",
+              "title": "Laws of Motion",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_9_PHYS_CH04",
+              "title": "Fluids: Pressure in Fluids and Archimedes' Principle",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_9_PHYS_CH05",
+              "title": "Upthrust in Fluids and Floatation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_9_PHYS_CH06",
+              "title": "Heat and Energy: Calorimetry Basics",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_9_PHYS_CH07",
+              "title": "Light: Reflection at Spherical Mirrors",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_9_PHYS_CH08",
+              "title": "Light: Refraction of Light at Plane Surfaces",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "ICSE_9_PHYS_CH09",
+              "title": "Propagation of Sound Waves",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "ICSE_9_PHYS_CH10",
+              "title": "Current Electricity and Simple Circuits",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "ICSE_9_PHYS_CH11",
+              "title": "Magnetism and Earth's Magnetic Field",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "ICSE_9_PHYS_CH12",
+              "title": "Chemical Changes and Periodic Table",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 13,
+              "code": "ICSE_9_PHYS_CH13",
+              "title": "Study of Gas Laws",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_9_BIOL",
+          "name": "Biological Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_9_BIOL_CH01",
+              "title": "Basic Biology: The Cell and Tissues",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_9_BIOL_CH02",
+              "title": "Flowering Plants: Vegetative Morphology",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_9_BIOL_CH03",
+              "title": "Plant Physiology: Germination and Respiration in Seeds",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_9_BIOL_CH04",
+              "title": "Diversity in Living Organisms: Five Kingdoms",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_9_BIOL_CH05",
+              "title": "Human Anatomy: Digestive and Skeletal Systems",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_9_BIOL_CH06",
+              "title": "Human Respiration and Skin Structure",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_9_BIOL_CH07",
+              "title": "Health and Hygiene: Infectious Diseases and Waste Management",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_9_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_9_SOCI_CH01",
+              "title": "The Harappan Civilization",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_9_SOCI_CH02",
+              "title": "Early Vedic and Later Vedic Civilizations",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_9_SOCI_CH03",
+              "title": "Jainism and Buddhism",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_9_SOCI_CH04",
+              "title": "The Mauryan Empire",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_9_SOCI_CH05",
+              "title": "The Sangam Age and The Gupta Empire",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_9_SOCI_CH06",
+              "title": "The Medieval World: Feudalism and Renaissance",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_9_SOCI_CH07",
+              "title": "The Reformation and Industrial Revolution",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_9_SOCI_CH08",
+              "title": "Our Constitution: Salient Features and Fundamental Rights",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "ICSE_9_SOCI_CH09",
+              "title": "Elections and Political Parties",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "ICSE_9_SOCI_CH10",
+              "title": "Earth as a Planet and Geographic Grid",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 11,
+              "code": "ICSE_9_SOCI_CH11",
+              "title": "Atmospheric Pressure and Winds",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 12,
+              "code": "ICSE_9_SOCI_CH12",
+              "title": "Humidity and Precipitation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 13,
+              "code": "ICSE_9_SOCI_CH13",
+              "title": "Ocean Currents and Tides",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade_number": 8,
+      "subjects": [
+        {
+          "code": "ICSE_8_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "ICSE Middle School Class 8 Mathematics curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_8_MATH_CH01",
+              "title": "Rational Numbers",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_8_MATH_CH02",
+              "title": "Exponents and Powers",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_8_MATH_CH03",
+              "title": "Squares and Square Roots",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_8_MATH_CH04",
+              "title": "Cubes and Cube Roots",
+              "estimated_minutes": 70,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_8_MATH_CH05",
+              "title": "Linear Equations in One Variable",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_8_PHYS",
+          "name": "Physical Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_8_PHYS_CH01",
+              "title": "Matter and Molecular Theory",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_8_PHYS_CH02",
+              "title": "Physical Quantities: Density and Relative Density",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_8_PHYS_CH03",
+              "title": "Force and Pressure: Turning Effect and Buoyancy",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_8_PHYS_CH04",
+              "title": "Energy: Work, Power and Energy Transformation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_8_PHYS_CH05",
+              "title": "Light: Refraction and Lenses",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_8_PHYS_CH06",
+              "title": "Heat Transfer and Thermal Expansion",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_8_PHYS_CH07",
+              "title": "Sound: Wave Nature and Velocity",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_8_PHYS_CH08",
+              "title": "Electricity: Static Electricity and Current",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "ICSE_8_PHYS_CH09",
+              "title": "Chemical Reactions and Equations",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 10,
+              "code": "ICSE_8_PHYS_CH10",
+              "title": "Hydrogen, Oxygen and Carbon Compounds",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_8_BIOL",
+          "name": "Biological Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_8_BIOL_CH01",
+              "title": "Transport of Food and Minerals in Plants",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_8_BIOL_CH02",
+              "title": "Reproduction in Plants and Animals",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_8_BIOL_CH03",
+              "title": "Human Endocrine System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_8_BIOL_CH04",
+              "title": "Human Circulatory System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_8_BIOL_CH05",
+              "title": "Human Nervous System and Sense Organs",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_8_BIOL_CH06",
+              "title": "Diseases: Causes, Prevention and First Aid",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_8_BIOL_CH07",
+              "title": "Food Production and Agriculture",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_8_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_8_SOCI_CH01",
+              "title": "The Great Revolt of 1857",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_8_SOCI_CH02",
+              "title": "Socio-Religious Reform Movements",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_8_SOCI_CH03",
+              "title": "The Indian National Movement (1885-1947)",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_8_SOCI_CH04",
+              "title": "The Contemporary World: World War I and II",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_8_SOCI_CH05",
+              "title": "The United Nations Organization",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_8_SOCI_CH06",
+              "title": "India: Geographical Features, Climate and Vegetation",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_8_SOCI_CH07",
+              "title": "Judiciary and Fundamental Rights",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade_number": 7,
+      "subjects": [
+        {
+          "code": "ICSE_7_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "ICSE Middle School Class 7 Mathematics curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_7_MATH_CH01",
+              "title": "Integers",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_7_MATH_CH02",
+              "title": "Fractions and Decimals",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_7_MATH_CH03",
+              "title": "Rational Numbers",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_7_PHYS",
+          "name": "Physical Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_7_PHYS_CH01",
+              "title": "Physical Quantities and Measurement",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_7_PHYS_CH02",
+              "title": "Motion and Speed",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_7_PHYS_CH03",
+              "title": "Energy: Kinetic and Potential",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_7_PHYS_CH04",
+              "title": "Light Energy: Reflection and Mirrors",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_7_PHYS_CH05",
+              "title": "Heat and Temperature",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_7_PHYS_CH06",
+              "title": "Sound Energy",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_7_PHYS_CH07",
+              "title": "Electricity and Simple Circuits",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_7_PHYS_CH08",
+              "title": "Atomic Structure & Chemical Bonding",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 9,
+              "code": "ICSE_7_PHYS_CH09",
+              "title": "Acids, Bases and Salts",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_7_BIOL",
+          "name": "Biological Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_7_BIOL_CH01",
+              "title": "Tissue: Plant and Animal Tissues",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_7_BIOL_CH02",
+              "title": "Kingdom Classification",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_7_BIOL_CH03",
+              "title": "Photosynthesis and Respiration in Plants",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_7_BIOL_CH04",
+              "title": "Human Excretory System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_7_BIOL_CH05",
+              "title": "Human Nervous System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_7_BIOL_CH06",
+              "title": "Allergy and Immunology",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_7_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_7_SOCI_CH01",
+              "title": "Medieval Europe: Rise of Christianity",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_7_SOCI_CH02",
+              "title": "The Delhi Sultanate (1206-1526)",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_7_SOCI_CH03",
+              "title": "The Mughal Empire (Akbar to Aurangzeb)",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_7_SOCI_CH04",
+              "title": "Composite Culture: Bhakti and Sufi Movements",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_7_SOCI_CH05",
+              "title": "Weather and Climate",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_7_SOCI_CH06",
+              "title": "Atmosphere and Greenhouse Effect",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_7_SOCI_CH07",
+              "title": "The Constitution of India and Preamble",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade_number": 6,
+      "subjects": [
+        {
+          "code": "ICSE_6_MATH",
+          "name": "Mathematics",
+          "category": "STEM",
+          "description": "ICSE Middle School Class 6 Mathematics curriculum.",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_6_MATH_CH01",
+              "title": "Number System",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_6_MATH_CH02",
+              "title": "Estimation",
+              "estimated_minutes": 60,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_6_MATH_CH03",
+              "title": "Whole Numbers and Integers",
+              "estimated_minutes": 80,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_6_PHYS",
+          "name": "Physical Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_6_PHYS_CH01",
+              "title": "Matter and Kinetic Theory",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_6_PHYS_CH02",
+              "title": "Physical Quantities and Measurement",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_6_PHYS_CH03",
+              "title": "Force and Friction",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_6_PHYS_CH04",
+              "title": "Simple Machines",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_6_PHYS_CH05",
+              "title": "Light and Shadows",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_6_PHYS_CH06",
+              "title": "Magnetism and Magnetic Fields",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_6_PHYS_CH07",
+              "title": "Introduction to Chemistry & Apparatus",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 8,
+              "code": "ICSE_6_PHYS_CH08",
+              "title": "Elements, Compounds and Mixtures",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_6_BIOL",
+          "name": "Biological Science",
+          "category": "science",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_6_BIOL_CH01",
+              "title": "Plant Life: The Leaf",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_6_BIOL_CH02",
+              "title": "Plant Life: The Flower",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_6_BIOL_CH03",
+              "title": "Cell: Structure and Functions",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_6_BIOL_CH04",
+              "title": "Human Digestive System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_6_BIOL_CH05",
+              "title": "Human Respiratory System",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_6_BIOL_CH06",
+              "title": "Health and Hygiene",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        },
+        {
+          "code": "ICSE_6_SOCI",
+          "name": "Social Studies",
+          "category": "social",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "code": "ICSE_6_SOCI_CH01",
+              "title": "The River Valley Civilizations: Indus Valley",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 2,
+              "code": "ICSE_6_SOCI_CH02",
+              "title": "The Mesopotamian Civilization",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 3,
+              "code": "ICSE_6_SOCI_CH03",
+              "title": "The Egyptian and Chinese Civilizations",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 4,
+              "code": "ICSE_6_SOCI_CH04",
+              "title": "The Vedic Period",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 5,
+              "code": "ICSE_6_SOCI_CH05",
+              "title": "Maps and Globes: Reading Latitudes and Longitudes",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 6,
+              "code": "ICSE_6_SOCI_CH06",
+              "title": "Major Landforms of the Earth",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            },
+            {
+              "chapter_number": 7,
+              "code": "ICSE_6_SOCI_CH07",
+              "title": "Rural and Urban Local Self-Government",
+              "estimated_minutes": 90,
+              "verification_status": "verified"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

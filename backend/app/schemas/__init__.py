@@ -1,0 +1,51 @@
+from app.schemas.common import (
+    MessageResponse,
+    PaginatedResponse,
+    PaginationParams,
+)
+from app.schemas.curriculum import (
+    BoardBase,
+    BoardRead,
+    SyllabusVersionRead,
+    ClassGradeBase,
+    ClassGradeRead,
+    SubjectSummary,
+    SubjectDetail,
+    ChapterSummary,
+    ChapterDetail,
+    TopicSummary,
+    LearningObjectiveRead,
+)
+from app.schemas.content import (
+    SourceAttributionRead,
+    LessonRead,
+    WorkedExampleRead,
+    PracticeQuestionRead,
+    QuestionOptionRead,
+    PrerequisiteRelationshipRead,
+    TopicDetail,
+)
+
+__all__ = [
+    "MessageResponse",
+    "PaginatedResponse",
+    "PaginationParams",
+    "BoardBase",
+    "BoardRead",
+    "SyllabusVersionRead",
+    "ClassGradeBase",
+    "ClassGradeRead",
+    "SubjectSummary",
+    "SubjectDetail",
+    "ChapterSummary",
+    "ChapterDetail",
+    "TopicSummary",
+    "TopicDetail",
+    "LearningObjectiveRead",
+    "SourceAttributionRead",
+    "LessonRead",
+    "WorkedExampleRead",
+    "PracticeQuestionRead",
+    "QuestionOptionRead",
+    "PrerequisiteRelationshipRead",
+]

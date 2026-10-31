@@ -1,0 +1,157 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-slate-50 text-slate-800 antialiased dark:bg-navy-900 dark:text-slate-200; }
+:focus-visible { outline: 2px solid #6366f1; outline-offset: 2px; }
+.brand-gradient { @apply bg-gradient-to-r from-sky-300 via-indigo-300 to-violet-400 bg-clip-text text-transparent; }
+
+/* Cinematic Intro Animations */
+@keyframes vfCinematicZoom {
+  0% {
+    transform: scale(1.15) translateY(12px);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.6;
+  }
+  85% {
+    opacity: 0.65;
+  }
+  100% {
+    transform: scale(1.02) translateY(0);
+    opacity: 0.55;
+  }
+}
+
+@keyframes vfAnamorphicFlare {
+  0% {
+    opacity: 0;
+    transform: scaleX(0.05) scaleY(0.3);
+  }
+  35% {
+    opacity: 0.95;
+    transform: scaleX(1.3) scaleY(1.3);
+  }
+  70% {
+    opacity: 0.6;
+    transform: scaleX(1.9) scaleY(0.8);
+  }
+  100% {
+    opacity: 0;
+    transform: scaleX(2.6) scaleY(0.1);
+  }
+}
+
+@keyframes vfLogoPulse {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+    filter: drop-shadow(0 0 0 rgba(56, 189, 248, 0));
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 40px rgba(56, 189, 248, 0.9)) drop-shadow(0 0 70px rgba(139, 92, 246, 0.6));
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: drop-shadow(0 0 25px rgba(56, 189, 248, 0.7));
+  }
+}
+
+@keyframes vfTitleReveal {
+  0% {
+    opacity: 0;
+    letter-spacing: 0.12em;
+    transform: scale(0.92) translateY(12px);
+    filter: blur(8px);
+  }
+  45% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    opacity: 1;
+    letter-spacing: 0.28em;
+    transform: scale(1) translateY(0);
+    filter: blur(0px);
+  }
+}
+
+@keyframes vfShimmerPass {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes vfShockwave {
+  0% {
+    transform: scale(0.3);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(2.8);
+    opacity: 0;
+  }
+}
+
+@keyframes vfTaglineReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+    letter-spacing: 0.04em;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: 0.08em;
+  }
+}
+
+@keyframes vfGlowPulse {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+.animate-vf-hero-zoom {
+  animation: vfCinematicZoom 4.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-vf-flare {
+  animation: vfAnamorphicFlare 2.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-vf-logo {
+  animation: vfLogoPulse 1.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-vf-title {
+  animation: vfTitleReveal 2.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-vf-shimmer {
+  background-size: 200% auto;
+  animation: vfShimmerPass 3.5s linear infinite;
+}
+
+.animate-vf-shockwave {
+  animation: vfShockwave 2.2s cubic-bezier(0.1, 0.8, 0.2, 1) forwards;
+}
+
+.animate-vf-tagline {
+  animation: vfTaglineReveal 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-vf-glow-pulse {
+  animation: vfGlowPulse 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
