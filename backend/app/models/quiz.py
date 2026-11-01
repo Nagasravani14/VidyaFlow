@@ -92,6 +92,7 @@ MASTERY_STATUSES = (
     "mastered",
 )
 QUIZ_STATUSES = ("in_progress", "finished")
+REVIEW_STATUSES = ("unreviewed", "approved", "rejected")
 
 # Level -> Bloom level (L1 remember ... L5 evaluate). One level per question.
 LEVEL_TO_BLOOM = {1: "remember", 2: "understand", 3: "apply", 4: "analyze", 5: "evaluate"}
@@ -113,10 +114,13 @@ class Concept(Base):
     # Retrieval hints for Chroma metadata filtering {"board","class","subject","chapter"}
     board = Column(String(20), default="TS", nullable=False)
     chapter = Column(String(200), nullable=True)
+    chapter_id = Column(Integer, ForeignKey("chapters.id", ondelete="SET NULL"), nullable=True)
     created_at = Column(DateTime, default=utcnow, nullable=False)
 
     __table_args__ = (
-        UniqueConstraint("class_num", "subject", "name", name="uq_concept_class_subject_name"),
+        UniqueConstraint("chapter_id", name="uq_concept_chapter_id"),
+        Index("ix_concepts_chapter_id", "chapter_id"),
+        UniqueConstraint("board", "class_num", "subject", "name", name="uq_concept_board_class_subject_name"),
         CheckConstraint("class_num BETWEEN 1 AND 12", name="ck_concept_class_range"),
     )
 
@@ -126,6 +130,7 @@ class Concept(Base):
         back_populates="concept",
         cascade="all, delete-orphan",
     )
+    chapter_rel = relationship("Chapter", foreign_keys=[chapter_id])
 
     def __repr__(self):
         return f"<Concept(id={self.id}, class={self.class_num}, name='{self.name}')>"
@@ -175,6 +180,7 @@ class Question(Base):
     content_hash = Column(String(64), nullable=False)  # sha256 of type + digit-masked stem
     embedding = Column(JSON, nullable=True)  # list[float]; filled by the quiz engine
     created_at = Column(DateTime, default=utcnow, nullable=False)
+    review_status = Column(String(20), default="unreviewed", nullable=False, index=True)
 
     __table_args__ = (
         UniqueConstraint("concept_id", "content_hash", name="uq_question_concept_hash"),
@@ -185,6 +191,7 @@ class Question(Base):
         # Teacher-assignment content can never be stored as a practice question.
         CheckConstraint(_in("assessment_purpose", ASSESSMENT_PURPOSES), name="ck_question_purpose"),
         CheckConstraint(_in("source", QUESTION_SOURCES), name="ck_question_source"),
+        CheckConstraint(_in("review_status", REVIEW_STATUSES), name="ck_question_review_status"),
         Index("ix_questions_concept_level", "concept_id", "level"),
     )
 
@@ -307,3 +314,29 @@ class StudentConceptMastery(Base):
     )
 
     concept = relationship("Concept")
+
+
+class ChapterMindMap(Base):
+    __tablename__ = "chapter_mindmaps"
+
+    id = Column(Integer, primary_key=True, index=True)
+    chapter_id = Column(Integer, ForeignKey("chapters.id", ondelete="CASCADE"), nullable=False)
+    version = Column(Integer, default=1, nullable=False)
+    mindmap_json = Column(JSON, nullable=False)
+    source = Column(String(20), default="ai", nullable=False)  # ai | curated
+    review_status = Column(String(20), default="unreviewed", nullable=False, index=True)  # unreviewed | approved | rejected
+    grounded = Column(Boolean, default=True, nullable=False)
+    model_name = Column(String(100), nullable=True)
+    created_at = Column(DateTime, default=utcnow, nullable=False)
+
+    __table_args__ = (
+        UniqueConstraint("chapter_id", name="uq_chapter_mindmaps_chapter_id"),
+        Index("ix_chapter_mindmaps_chapter_id", "chapter_id"),
+        CheckConstraint(_in("source", ("ai", "curated")), name="ck_mindmap_source"),
+        CheckConstraint(_in("review_status", REVIEW_STATUSES), name="ck_mindmap_review_status"),
+    )
+
+    chapter = relationship("Chapter")
+
+    def __repr__(self):
+        return f"<ChapterMindMap(id={self.id}, chapter_id={self.chapter_id}, source='{self.source}', status='{self.review_status}')>"

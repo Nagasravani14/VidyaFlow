@@ -60,7 +60,7 @@ def _parse(text: str):
         raise _Unsafe(f"disallowed characters in {text!r}")
     if _LONG_WORD.search(t.lower()):
         raise _Unsafe(f"only single-letter variables are allowed in {text!r} (write * between letters)")
-    if any(int(m) > MAX_EXPONENT for m in _EXPONENT.findall(t)) or t.count("**") > 3:
+    if any(int(m) > MAX_EXPONENT for m in _EXPONENT.findall(t)) or t.count("**") > 3 or re.search(r"\*\*[^*]+\*\*", t):
         raise _Unsafe(f"exponent too large or too many powers in {text!r}")
     x = sp.Symbol("x")
     names = {c: sp.Symbol(c) for c in set(re.findall(r"[a-z]", t.lower()))}

@@ -111,9 +111,11 @@ def public_question(q: Question) -> Dict[str, Any]:
     }
 
 
-def _item_for_payload(item: Dict[str, Any]) -> Dict[str, Any]:
+def _item_for_payload(item: Dict[str, Any], bp: Optional[Blueprint] = None) -> Dict[str, Any]:
     """Convert a validated LLM item into the authored-bank shape ``build_question_payload`` reads."""
     out = dict(item)
+    if "level" not in out and bp is not None:
+        out["level"] = bp.level
     if "distractors" in out:
         out["distractors"] = [(d["text"].strip(), d["misconception"].strip()) for d in out["distractors"]]
     if out["type"] == "assertion_reasoning":
@@ -173,7 +175,7 @@ class QuizEngine:
             payload = None
             if not reasons:
                 try:
-                    payload = build_question_payload(_item_for_payload(item))
+                    payload = build_question_payload(_item_for_payload(item, bp=bp))
                 except (KeyError, ValueError, TypeError) as e:
                     reasons = [f"malformed item: {type(e).__name__}: {e}"]
             if not reasons:

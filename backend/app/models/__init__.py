@@ -32,6 +32,7 @@ from app.models.quiz import (
     QuestionAttempt,
     StudentConceptLevel,
     StudentConceptMastery,
+    ChapterMindMap,
 )
 
 __all__ = [
@@ -60,4 +61,5 @@ __all__ = [
     "QuestionAttempt",
     "StudentConceptLevel",
     "StudentConceptMastery",
+    "ChapterMindMap",
 ]
